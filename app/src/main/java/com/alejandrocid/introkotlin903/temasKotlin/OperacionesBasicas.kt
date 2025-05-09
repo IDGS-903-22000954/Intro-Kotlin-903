@@ -18,6 +18,7 @@ fun main(){
             num1 = readln().toDouble()
             println("Inserte el segundo numero")
             num2 = readln().toDouble()
+
             var suma = num1 + num2
             println("La suma de $num1 y $num2 es $suma")
         }else if(opcion == 2){
@@ -25,6 +26,7 @@ fun main(){
             num1 = readln().toDouble()
             println("Inserte el segundo numero")
             num2 = readln().toDouble()
+
             var resta = num1 - num2
             println("La resta de $num1 y $num2 es $resta")
         }else if(opcion == 3){
@@ -32,6 +34,7 @@ fun main(){
             num1 = readln().toDouble()
             println("Inserte el segundo numero")
             num2 = readln().toDouble()
+
             var mult = num1 * num2
             println("La multiplicación de $num1 y $num2 es $mult")
         }else if(opcion == 4){
@@ -39,6 +42,7 @@ fun main(){
             num1 = readln().toDouble()
             println("Inserte el segundo numero")
             num2 = readln().toDouble()
+
             var div = num1 / num2
             println("La división de $num1 y $num2 es $div")
         }else{
